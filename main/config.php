@@ -4,10 +4,10 @@
 */
 
 
-$db_login = 'postgres';
-$db_pass = 'beber';
-$db_server = 'localhost';
-$db = 'tempo';
+$db_login = 'xxx';
+$db_pass = 'xxx';
+$db_server = 'xxx';
+$db = 'xxx';
 $db_port = '';
 
 define('ROOT', './');
