@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-family:arial,helvetica;
+}
+
+.Window 
+{
+	background-color:#EEEEEE;
+	border:1px solid #333333;
+	color:#333333;
+	left:50%;
+	margin-left:-300px;
+	padding:0px;
+	position:relative;
+	width:700px;
+}
+
+.WinHeader 
+{
+	padding: 0px;
+	height: 30px;
+}
+
+.close_overlayer
+{
+	cursor:pointer;
+	float:right;
+	padding-right:10px;
+}
+
+.Content
+{
+	background-color:White;
+	border:1px solid #AAAAAA;
+	height:70%;
+	margin:10px;
+	padding:10px;
+}
+
+.WinTitle
+{
+	font-size:18px;
+	font-weight:bold;
+	padding:10px 10px 0px;
+}
+
+#maincontent
+{
+	font-family:arial,helvetica;
+}
+
+#back
+{
+	padding-top: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	width: 6px;
+	text-align: center;
+	float: left;
+	border: 1px solid rgb(216, 216, 216);
+	vertical-align: middle;
+	background-color: rgb(238, 238, 238);
+	height: 300px;
+	margin-top:5px;
+}
+
+#left_table, #middle_table, #right_table
+{
+	float:left;
+	height:300px;
+	width:200px;
+	margin: 3px;
+	padding: 2px;
+	display: inline;
+	border:#AAAAAA solid 1px;
+}
+
+#middle_table
+{
+	width: 300px;
+}
+
+div#maincontent span
+{
+	background:#9B5599 none repeat scroll 0% 0%;
+	color:#FFFFFF;
+	display:block;
+	font-weight:bold;
+	padding:4px 3px 6px;
+	margin-right:2px;
+}
+
+div#left_cell a, div#middle_cell a
+{
+	color:#333333;
+	display:block;
+	padding: 5px 10px 5px 10px;
+	text-decoration:none;
+	text-indent:-5px;
+	margin-right:2px;
+}
+
+div#maincontent a:hover, .line_selection:hover
+{
+	background-color:#DDA2DC;
+}
+
+div#left_cell, div#middle_cell, div#right_cell
+{
+	overflow-y:auto;
+	height:90%;
+}
+
+div#right_cell
+{
+	padding: 5px;
+}
+
+div#form
+{
+	text-align:center;
+	margin-top: 100px;
+}
+
+#form input, #form select
+{
+	margin: 1px;
+}
+
+#selection
+{
+	width: auto;
+	border:#AAAAAA solid 1px;
+	margin-bottom: 5px;
+	padding: 3px;
+}
+
+.line_selection
+{
+	margin: 1px;
+	padding: 5px;
+	width: auto;
+}

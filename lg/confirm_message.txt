@@ -1,0 +1,7 @@
+Dear {NICKNAME},
+
+You received this message because your account has been activated on Tempo database website.
+
+You can connect with your login and password.
+
+Regards.
