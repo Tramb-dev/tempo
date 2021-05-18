@@ -1,0 +1,9 @@
+Hi,
+
+You received this message because a new member has been registered on Tempo Database website and you have to activate it.
+
+Here are some information about this user:
+Login: {NICKNAME}
+Email adress: {EMAIL}
+
+To valid its registration, you can go on the index or in the user panel.
